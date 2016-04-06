@@ -1,0 +1,24 @@
+{
+  "name": "Angular",
+  "description": "Demo",
+  "version": "0.0.0",
+  "author": {
+    "name": "Tomorrow"
+  },
+  "scripts": {
+    "start": "gulp server & node node/app.js"
+  },
+  "devDependencies": {
+    "cors": "^2.7.1",
+    "domain": "0.0.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-webserver": "^0.9.1",
+    "mongoose": "^4.4.11",
+    "path": "^0.12.7"
+  }
+}

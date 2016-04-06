@@ -1,0 +1,62 @@
+$btn-height: 42px;
+.login-box {
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 500px;
+  //background: rgba(55, 145, 108, .5);
+  background: white;
+
+  .title {
+    position: relative;
+    top:30px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(107, 170, 105);
+  }
+
+  .login-form {
+    position: relative;
+    top: 75px;
+    width: 80%;
+    height: 320px;
+    //border: 1px solid;
+    margin: 0 auto;
+
+    select {
+      display: block;
+      position: relative;
+      width: 220px;
+      height: $btn-height;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      border-radius: 0;
+      outline: none;
+      font-size: 24px;
+    }
+  }
+
+  .login-submit {
+    display: block;
+    position: relative;
+    top: 110px;
+    width: 220px;
+    height: $btn-height;
+    line-height: $btn-height;
+    border: 1px solid rgb(149,149,149);
+    margin: 0 auto;
+    background: rgb(245,245,245);
+    font-size: 24px;
+    border-radius: 5px;
+  }
+
+  .login-submit:hover {
+    background: #6baa69;
+    color: white;
+    cursor: pointer;
+  }
+}

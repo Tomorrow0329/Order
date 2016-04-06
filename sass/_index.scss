@@ -1,0 +1,103 @@
+html,body {
+  background: #eee;
+  font-family: monospace;
+}
+$color-white : white;
+$btn-height: 42px;
+#box {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+
+  .box-inner {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 0 0 6px lightgray;
+    background: $color-white;
+  }
+}
+
+.menu {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+
+  .title {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(107, 170, 105);
+  }
+
+  .menu-ul {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: auto;
+    //padding: 0 19%;
+  }
+
+  .list {
+    position: relative;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    padding: 0 10%;
+  }
+
+  .list:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+  }
+
+  .menu-radio {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin-right: 10px;
+  }
+
+  .card {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    opacity: 0.2;
+  }
+
+  .btn {
+    display: block;
+    position: absolute;
+    top: 295px;
+    left: 25%;
+    width: 200px;
+    height: $btn-height;
+    margin: 0 auto;
+    background: #eee;
+    color: #6baa69;
+    border: none;
+    font-size: 24px;
+    outline: none;
+  }
+  .btn:hover {
+    background: rgb(107, 170, 105);
+    color: white;
+    cursor: pointer;
+  }
+
+  .to-login {
+    line-height: $btn-height;
+    text-align: center;
+  }
+}

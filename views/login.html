@@ -1,0 +1,14 @@
+<div class="login-box">
+  <h1 class="title">MENU</h1>
+  <form class="login-form" name="form" ng-submit="loginSubmit(form)">
+    <select ng-model="department" ng-options="departmentOption.value as departmentOption.label for departmentOption in departmentOptions">
+      <option value="" label="-请选择-"></option>
+    </select>
+
+    <select ng-model="user" ng-options="userOption.value as userOption.label for userOption in userOptions">
+      <option value="" label="-请选择-"></option>
+    </select>
+
+    <input class="login-submit" type="submit" value="Login">
+  </form>
+</div>

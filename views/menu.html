@@ -1,0 +1,16 @@
+
+<div class="menu">
+  <h1 class="title">MENU</h1>
+
+  <form class="menu-ul" name="form" ng-submit="SubmitMenu(form)">
+      <p class="list" ng-repeat="menu in menuList">
+        <input class="menu-radio" type="radio" id={{$index}} name="menu" ng-click="setSelect($index)"><label for={{$index}}>{{menu}}</label>
+      </p>
+    <p class="card" ng-show="!userStatus"></p>
+
+    <a class="btn to-login" href="#/login" ng-show="!userStatus">登录</a>
+    <input class="btn" type="submit" value="确定" ng-show="userStatus">
+  </form>
+
+</div>
+
